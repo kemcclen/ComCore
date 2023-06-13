@@ -2,6 +2,7 @@
 
 ## Description:
 
+Back end of an e-commerce database configuring a working Express.js API to use Sequelize to interact with a MySQL database.
 
 ## Table of Contents
 
@@ -18,7 +19,7 @@
 
 2. Install the required dependencies using the following command:
 
-    npm install inquirer@8.2.4 mysql2 
+    npm install inquirer@8.2.4 mysql2 sequelize
 
 3. Set up your MySQL database by executing the schema.sql file to create the necessary tables.
 
@@ -28,18 +29,47 @@
 
 6. Start the application by running the following command:
 
-    node index.js
+    node server.js
 
-7. 
+7.  Using insomnia or your browser, view:
+
+- localhost:3001/api/categories
+- localhost:3001/api/products
+- localhost:3001/api/tags
+
+
 
 ## Usage:
 
+After you have followed the steps in [Installation](#installation):
 
-**Errors**: If errors occur, please refer to the error messages in your colsole. The log will tell you where the error occoured which will assis in debugging. 
+**Interface**: ComCore runs in the browser or applications like Insomnia that are designed to design, debug or test API's. 
+
+**Errors**: If errors occur, you will see a "Wroung Route!" message. Please check that you have used:
+- localhost:3001/api/categories
+- localhost:3001/api/products
+- localhost:3001/api/tags
+
+**id search**: if you are looking for a specific category, product or tag, add the id number to the end of your search. For example:
+- localhost:3001/api/categories/1
+- localhost:3001/api/products/3
+- localhost:3001/api/tags/4
+
 
 ## Demonstration:
 
+1. **Categories** localhost:3001/api/categories
+![categories](/assets/categories.png)
 
+2. **Products** localhost:3001/api/products
+![products](/assets/products.png)
+
+3. **Tags** localhost:3001/api/tags
+![tags](/assets/tags)
+
+3. **id Search** localhost:3001/api/tags/4
+Add the id number of the category, product or tag you are looking for to your endpoint. For example, 4 in this case.
+![idsearch](/assets/idsearch.png)
 
 
 
@@ -74,4 +104,4 @@ WorkFlow is licensed under the [MIT License](https://opensource.org/license/mit/
 
 _The MIT License is a permissive open-source license that allows you to use, modify, and distribute the project for both commercial and non-commercial purposes. It provides you with the freedom to customize the application to suit your needs._
 
-_By contributing to WorkFlow, you agree that your contributions will be licensed under the same MIT License. This ensures that the project remains open-source and accessible to the community._
+_By contributing to ComCore, you agree that your contributions will be licensed under the same MIT License. This ensures that the project remains open-source and accessible to the community._
