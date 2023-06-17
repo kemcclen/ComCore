@@ -73,7 +73,11 @@ Add the id number of the category, product or tag you are looking for to your en
 
 
 
-Link here
+
+
+https://github.com/kemcclen/ComCore/assets/123762040/159e8cd6-b76a-4731-9bcc-090a0298143a
+
+
 
 
 ## Contributions: 
@@ -97,7 +101,6 @@ Thank you for considering contributing to ComCore. Your contributions are highly
 
 ## Links: 
 - Repository: https://github.com/kemcclen/ComCore
-- Heroku: 
 
 ## License:
 WorkFlow is licensed under the [MIT License](https://opensource.org/license/mit/).
